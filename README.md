@@ -1,10 +1,10 @@
 # 📚 Book_Recommendation_AI
 
-> A Machine Learning-powered book recommendation engine combining **Popularity-Based Filtering** and **Collaborative Filtering with Cosine Similarity** — built with Python & Streamlit.
+> A Machine Learning-powered book recommendation engine combining **Popularity-Based Filtering** and **Collaborative Filtering with Cosine Similarity** — built with Python & Tkinter.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Tkinter-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
   <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
@@ -31,12 +31,12 @@
 
 The **Book Recommender System** helps users discover books tailored to their reading preferences using two distinct ML strategies:
 
-1. **Popularity-Based Filtering** — Surfaces the Top 50 most-rated books (minimum 250 ratings required), ranked by community engagement.
-2. **Collaborative Filtering (CF) with Cosine Similarity** — Generates personalized recommendations by finding books liked by users with similar tastes, powered by a User-Item matrix and cosine similarity.
+1. **Popularity-Based Filtering** — Surfaces the Top 50 most-rated books (minimum 250 ratings required), ranked by community engagement.  
+2. **Collaborative Filtering (CF) with Cosine Similarity** — Generates personalized recommendations by finding books liked by users with similar tastes, powered by a User-Item matrix and cosine similarity.  
 
 The system runs on the **Book-Crossing dataset** — a rich open dataset with 270,000+ users, 1M+ ratings, and 271,000+ books.
 
-🔗 **GitHub Repository:** [https://github.com/AbhishekDhawan07/Book_Recommendation_AI](https://github.com/AbhishekDhawan07/Book_Recommendation_AI)
+🔗 **GitHub Repository:** https://github.com/AbhishekDhawan07/Book_Recommendation_AI
 
 ---
 
@@ -46,20 +46,29 @@ The system runs on the **Book-Crossing dataset** — a rich open dataset with 27
 
 Browse the **Top 50 most-rated books** ranked by total number of community ratings. Each card shows:
 
-- 📖 Book cover image
-- 📝 Title & Author
-- ⭐ Average star rating
-- 🔢 Total number of ratings
+- 📖 Book cover image  
+- 📝 Title & Author  
+- ⭐ Average star rating  
+- 🔢 Total number of ratings  
 
 > Minimum threshold of **250 ratings** ensures only well-reviewed books appear.
 
-Screenshots of the app:
+### 📸 Screenshots
 
-- [Books 1–10](https://raw.githubusercontent.com/AbhishekDhawan07/Book_Recommendation_AI/main/First_10_Books_Recommendation.png)
-- [Books 11–20](https://raw.githubusercontent.com/AbhishekDhawan07/Book_Recommendation_AI/main/Second_10_Books_Recommendation_.png)
-- [Books 21–30](https://raw.githubusercontent.com/AbhishekDhawan07/Book_Recommendation_AI/main/Third_10_Books_Recommendation.png)
-- [Books 31–40](https://raw.githubusercontent.com/AbhishekDhawan07/Book_Recommendation_AI/main/Fourth_10_Books_Recommendation.png)
-- [Books 41–50](https://raw.githubusercontent.com/AbhishekDhawan07/Book_Recommendation_AI/main/Fifth_10_Books_Recommendation.png)
+#### First 10 Books Recommendation
+![First 10 Books Recommendation](./First%2010%20Books%20Recommendation.png)
+
+#### Second 10 Books Recommendation
+![Second 10 Books Recommendation](./Second%2010%20Books%20Recommendation%20.png)
+
+#### Third 10 Books Recommendation
+![Third 10 Books Recommendation](./Third%2010%20Books%20Recommendation.png)
+
+#### Fourth 10 Books Recommendation
+![Fourth 10 Books Recommendation](./Fourth%2010%20Books%20Recommendation.png)
+
+#### Fifth 10 Books Recommendation
+![Fifth 10 Books Recommendation](./Fifth%2010%20Books%20Recommendation.png)
 
 ---
 
@@ -68,10 +77,10 @@ Screenshots of the app:
 Enter any book title into the search box and instantly receive **5 personalized recommendations** powered by Collaborative Filtering and Cosine Similarity.
 
 **How to use:**
-1. Click the **🔍 Recommend Books** tab
-2. Type or select a book title from the dropdown
-3. Hit **Show Recommendations**
-4. Get 5 similar books with covers, titles, and authors
+1. Click the **🔍 Recommend Books** tab  
+2. Type or select a book title from the dropdown  
+3. Hit **Show Recommendations**  
+4. Get 5 similar books with covers, titles, and authors  
 
 ---
 
@@ -90,14 +99,14 @@ Enter any book title into the search box and instantly receive **5 personalized 
 
 ## ✨ Features
 
-- 🔥 **Top 50 Popular Books** — Browse the most-loved books ranked by number of ratings, with cover images, author names, average star ratings, and total rating counts
-- 🔍 **Collaborative Filtering Recommendations** — Enter any book title to get 5 personalized recommendations computed via cosine similarity
-- 🖼️ **Book Cover Thumbnails** — Each card displays the actual book cover fetched from the dataset
-- ⭐ **Ratings Display** — Shows both average star rating and total number of ratings for transparency
-- 📊 **CF Recommendation Pool** — 706 books eligible for collaborative filtering (sufficient rating density)
-- 🌗 **Dark-Themed UI** — Clean, modern dark interface with green accents for comfortable reading
-- 📱 **Responsive Grid Layout** — Books displayed in a 5-column card grid
-- ⚡ **Pre-computed Pickle Files** — Models saved as `.pkl` files for instant loading without retraining
+- 🔥 **Top 50 Popular Books** — Browse the most-loved books ranked by number of ratings, with cover images, author names, average star ratings, and total rating counts  
+- 🔍 **Collaborative Filtering Recommendations** — Enter any book title to get 5 personalized recommendations computed via cosine similarity  
+- 🖼️ **Book Cover Thumbnails** — Each card displays the actual book cover fetched from the dataset  
+- ⭐ **Ratings Display** — Shows both average star rating and total number of ratings for transparency  
+- 📊 **CF Recommendation Pool** — 706 books eligible for collaborative filtering (sufficient rating density)  
+- 🌗 **Dark-Themed UI** — Clean, modern dark interface with green accents for comfortable reading  
+- 📱 **Responsive Grid Layout** — Books displayed in a 5-column card grid  
+- ⚡ **Pre-computed Pickle Files** — Models saved as `.pkl` files for instant loading without retraining  
 
 ---
 
@@ -107,9 +116,9 @@ The project uses the **Book-Crossing Dataset**, split into three CSV files. Down
 
 | File | Description | Download |
 |---|---|---|
-| `Books.csv` | Book metadata — ISBN, title, author, year, publisher, cover image URLs | [📥 Download Books.csv](https://drive.google.com/file/d/1mXqu043n8fk1iR-7an9Z1KEklmGhHgie/view?usp=sharing) |
-| `Ratings.csv` | User–book ratings on a scale of 0–10 | [📥 Download Ratings.csv](https://drive.google.com/file/d/1m8RnTeECO7gxv7rubGYBbPTnql2VhI1M/view?usp=sharing) |
-| `Users.csv` | User demographics — user ID, location, age | [📥 Download Users.csv](https://drive.google.com/file/d/15mPKzKETpTMcvEsCFPB5IYM3FfvVRFYi/view?usp=sharing) |
+| `Books.csv` | Book metadata — ISBN, title, author, year, publisher, cover image URLs | https://drive.google.com/file/d/1mXqu043n8fk1iR-7an9Z1KEklmGhHgie/view |
+| `Ratings.csv` | User–book ratings on a scale of 0–10 | https://drive.google.com/file/d/1m8RnTeECO7gxv7rubGYBbPTnql2VhI1M/view |
+| `Users.csv` | User demographics — user ID, location, age | https://drive.google.com/file/d/15mPKzKETpTMcvEsCFPB5IYM3FfvVRFYi/view |
 
 > ⚠️ **Note:** Place all three CSV files in the root project directory before running the notebook or Streamlit app.
 
@@ -118,77 +127,43 @@ The project uses the **Book-Crossing Dataset**, split into three CSV files. Down
 ## ⚙️ How It Works
 
 ### 1. Popularity-Based Filtering
-```
-Books.csv ──► Merge with Ratings.csv ──► Group by book title
-                                                │
-                                     Count number of ratings
-                                                │
-                                   Filter: ratings_count ≥ 250
-                                                │
-                                   Calculate average rating
-                                                │
-                                   Sort by ratings_count DESC
-                                                │
-                                   Take Top 50  ──►  Saved as popular.pkl
-```
-
-- Merges `Books.csv` and `Ratings.csv` on ISBN
-- Groups by book title and counts ratings per book
-- Applies a **250-rating minimum threshold** to ensure statistical credibility
-- Computes average rating and sorts descending by total rating count
-- Result saved to `popular.pkl` for fast Streamlit loading
+- Merge `Books.csv` and `Ratings.csv`  
+- Group by book title and count ratings  
+- Filter books with ≥ 250 ratings  
+- Compute average rating  
+- Sort and select Top 50  
 
 ### 2. Collaborative Filtering (Cosine Similarity)
-```
-Users  ──► Filter power users (rated ≥ 200 books)
-Books  ──► Filter popular books (received ≥ 50 ratings)
-                        │
-           Build Pivot Table (User-Item Matrix)
-           rows = books │ columns = users │ values = ratings
-                        │
-           Compute Cosine Similarity Matrix (book × book)
-                        │
-           Saved as: pt.pkl + similarity_scores.pkl
-                        │
-           Input Book ──► Lookup Index ──► Fetch similarity row
-                                                  │
-                                       Sort DESC, Top 5 results
-                                                  │
-                                       Return Recommended Books
-```
-
-- Filters users who rated at least **200 books** to reduce noise from casual users
-- Filters books with at least **50 ratings** to ensure meaningful comparison
-- Builds a **Pivot Table** (Book × User matrix with rating values)
-- Applies `cosine_similarity` from Scikit-learn across all books
-- Pivot table saved as `pt.pkl`; similarity matrix saved as `similarity_scores.pkl`
-- On query: looks up book index → fetches similarity vector → returns top 5 matches
+- Filter users who rated ≥ 200 books  
+- Filter books with ≥ 50 ratings  
+- Build User-Item matrix  
+- Compute cosine similarity  
+- Recommend top 5 similar books  
 
 ---
 
 ## 🗂️ Project Structure
-```
+```text
 Book_Recommendation_AI/
 │
-├── Books Recommendation System using ML.ipynb  # Full ML pipeline & EDA notebook
-├── app.py                                       # Streamlit web application
+├── Books Recommendation System using ML.ipynb
+├── app.py
 │
-├── popular.pkl                                  # Pre-computed top 50 popular books
-├── pt.pkl                                       # Pre-computed User-Item pivot table
-├── similarity_scores.pkl                        # Pre-computed cosine similarity matrix
+├── popular.pkl
+├── pt.pkl
+├── similarity_scores.pkl
 │
-├── Books.csv                                    # Book metadata       (download required)
-├── Ratings.csv                                  # User ratings        (download required)
-├── Users.csv                                    # User demographics   (download required)
+├── Books.csv
+├── Ratings.csv
+├── Users.csv
 │
-├── First_10_Books_Recommendation.png            # App screenshot — books 1–10
-├── Second_10_Books_Recommendation_.png          # App screenshot — books 11–20
-├── Third_10_Books_Recommendation.png            # App screenshot — books 21–30
-├── Fourth_10_Books_Recommendation.png           # App screenshot — books 31–40
-├── Fifth_10_Books_Recommendation.png            # App screenshot — books 41–50
+├── First 10 Books Recommendation.png
+├── Second 10 Books Recommendation .png
+├── Third 10 Books Recommendation.png
+├── Fourth 10 Books Recommendation.png
+├── Fifth 10 Books Recommendation.png
 │
-└── README.md                                    # Project documentation
-```
+└── README.md
 
 ---
 
@@ -198,68 +173,14 @@ Book_Recommendation_AI/
 ```bash
 git clone https://github.com/AbhishekDhawan07/Book_Recommendation_AI.git
 cd Book_Recommendation_AI
-```
 
-### 2. Install Dependencies
-```bash
-pip install pandas numpy scikit-learn streamlit jupyter
-```
-
-### 3. Download the Dataset
-
-Download all three CSV files and place them in the project root:
-
-- 📥 [Books.csv](https://drive.google.com/file/d/1mXqu043n8fk1iR-7an9Z1KEklmGhHgie/view?usp=sharing)
-- 📥 [Ratings.csv](https://drive.google.com/file/d/1m8RnTeECO7gxv7rubGYBbPTnql2VhI1M/view?usp=sharing)
-- 📥 [Users.csv](https://drive.google.com/file/d/15mPKzKETpTMcvEsCFPB5IYM3FfvVRFYi/view?usp=sharing)
-
-### 4. Run the Jupyter Notebook *(optional — pkl files already included)*
-```bash
-jupyter notebook "Books Recommendation System using ML.ipynb"
-```
-
-Execute all cells to regenerate `popular.pkl`, `pt.pkl`, and `similarity_scores.pkl` if needed.
-
-### 5. Launch the Streamlit App
+### Run the App
 ```bash
 streamlit run app.py
 ```
-
-Open your browser at **`http://localhost:8501`** and start exploring!
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests for:
-
-- Adding new algorithms (content-based filtering, hybrid recommender)
-- Improving the Streamlit UI/UX
-- Adding user login and personalized rating history
-- Deploying to Streamlit Cloud or Hugging Face Spaces
-- Extending the dataset with newer book data
-
-### Steps to Contribute
-```bash
-# Fork the repository
-# Create your feature branch
-git checkout -b feature/your-feature-name
-
-# Commit your changes
-git commit -m "Add: your feature description"
-
-# Push and open a Pull Request
-git push origin feature/your-feature-name
-```
-
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-<p align="center">
-  Built with ❤️ by <a href="https://github.com/AbhishekDhawan07">Abhishek Dhawan</a> · Powered by Python, Scikit-learn & Streamlit
-</p>
+Contributions are welcome! Feel free to open issues or submit pull requests.
