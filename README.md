@@ -1,4 +1,4 @@
-# 📚 Book_Recommendation_AI
+# 📚 Book Recommendation AI
 
 > A Machine Learning-powered book recommendation engine combining **Popularity-Based Filtering** and **Collaborative Filtering with Cosine Similarity** — built with Python & Tkinter.
 
