@@ -1,6 +1,6 @@
 # 📚 Book Recommendation AI
 
-> A Machine Learning-powered book recommendation engine combining **Popularity-Based Filtering** and **Collaborative Filtering with Cosine Similarity** — built with Python & Tkinter.
+> A Machine Learning-powered book recommendation engine combining **Popularity-Based Filtering** and **Collaborative Filtering with Cosine Similarity** - built with Python & Tkinter.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white"/>
@@ -31,10 +31,10 @@
 
 The **Book Recommender System** helps users discover books tailored to their reading preferences using two distinct ML strategies:
 
-1. **Popularity-Based Filtering** — Surfaces the Top 50 most-rated books (minimum 250 ratings required), ranked by community engagement.  
-2. **Collaborative Filtering (CF) with Cosine Similarity** — Generates personalized recommendations by finding books liked by users with similar tastes, powered by a User-Item matrix and cosine similarity.  
+1. **Popularity-Based Filtering** - Surfaces the Top 50 most-rated books (minimum 250 ratings required), ranked by community engagement.  
+2. **Collaborative Filtering (CF) with Cosine Similarity** - Generates personalized recommendations by finding books liked by users with similar tastes, powered by a User-Item matrix and cosine similarity.  
 
-The system runs on the **Book-Crossing dataset** — a rich open dataset with 270,000+ users, 1M+ ratings, and 271,000+ books.
+The system runs on the **Book-Crossing dataset** - a rich open dataset with 270,000+ users, 1M+ ratings, and 271,000+ books.
 
 🔗 **GitHub Repository:** https://github.com/AbhishekDhawan07/Book_Recommendation_AI
 
