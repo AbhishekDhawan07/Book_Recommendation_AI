@@ -99,13 +99,13 @@ Enter any book title into the search box and instantly receive **5 personalized 
 
 ## ✨ Features
 
-- 🔥 **Top 50 Popular Books** — Browse the most-loved books ranked by number of ratings, with cover images, author names, average star ratings, and total rating counts  
-- 🔍 **Collaborative Filtering Recommendations** — Enter any book title to get 5 personalized recommendations computed via cosine similarity  
-- 🖼️ **Book Cover Thumbnails** — Each card displays the actual book cover fetched from the dataset  
-- ⭐ **Ratings Display** — Shows both average star rating and total number of ratings for transparency  
-- 📊 **CF Recommendation Pool** — 706 books eligible for collaborative filtering (sufficient rating density)  
-- 🌗 **Dark-Themed UI** — Clean, modern dark interface with green accents for comfortable reading  
-- 📱 **Responsive Grid Layout** — Books displayed in a 5-column card grid  
+- 🔥 **Top 50 Popular Books** - Browse the most-loved books ranked by number of ratings, with cover images, author names, average star ratings, and total rating counts  
+- 🔍 **Collaborative Filtering Recommendations** - Enter any book title to get 5 personalized recommendations computed via cosine similarity  
+- 🖼️ **Book Cover Thumbnails** - Each card displays the actual book cover fetched from the dataset  
+- ⭐ **Ratings Display** - Shows both average star rating and total number of ratings for transparency  
+- 📊 **CF Recommendation Pool** - 706 books eligible for collaborative filtering (sufficient rating density)  
+- 🌗 **Dark-Themed UI** - Clean, modern dark interface with green accents for comfortable reading  
+- 📱 **Responsive Grid Layout** - Books displayed in a 5-column card grid  
 - ⚡ **Pre-computed Pickle Files** — Models saved as `.pkl` files for instant loading without retraining  
 
 ---
